@@ -27,5 +27,6 @@ class J2objc < Formula
     end
 
     test do
+        system "j2objcc --version"
     end
 end
