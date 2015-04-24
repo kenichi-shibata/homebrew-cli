@@ -7,7 +7,7 @@ class Goose < Formula
     def install
         ENV["GOPATH"] = buildpath
 
-        system "go", "get", "bitbucket.org/liamstask/goose/cmd/goose"
+        system "go get -u bitbucket.org/liamstask/goose/cmd/goose"
         
         bin.install "bin/goose" => "goose"
     end
