@@ -1,7 +1,7 @@
 class Minikube < Formula
     homepage "https://github.com/kubernetes/minikube"
-    desc ""
-    version "0.10.0"
+    desc "Run Kubernetes locally"
+    version "0.12.2"
     url "https://github.com/kubernetes/minikube/releases/download/v#{version}/minikube-darwin-amd64"
 
     def install
