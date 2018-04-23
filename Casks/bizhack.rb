@@ -5,7 +5,6 @@ cask 'bizhack' do
 
     url "https://bizhawk.googlecode.com/files/BizHawk_mac_#{version}.zip"
     homepage 'http://tasvideos.org/Bizhawk.html'
-    license :other
 
     app 'BizHawk.app'
 end

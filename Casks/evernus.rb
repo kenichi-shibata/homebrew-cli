@@ -5,7 +5,6 @@ cask 'evernus' do
 
     url "https://bitbucket.org/krojew/evernus/downloads/Evernus-#{version}.dmg"
     homepage 'http://evernus.com/'
-    license :gpl
 
     app 'Evernus.app'
 end

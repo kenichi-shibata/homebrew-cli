@@ -5,7 +5,6 @@ cask 'solidoak' do
 
     url "https://github.com/oakes/SolidOak/releases/download/#{version}/solidoak-#{version}-macosx.zip"
     homepage 'https://sekao.net/solidoak/'
-    license :other
 
     app 'SolidOak.app'
 end
