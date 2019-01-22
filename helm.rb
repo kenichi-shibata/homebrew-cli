@@ -1,6 +1,6 @@
 class Helm < Formula
     homepage "https://github.com/helm/helm/"
-    version '2.8.2'
+    version '2.9.1'
     url "https://storage.googleapis.com/kubernetes-helm/"\
         "helm-v#{version}-darwin-amd64.tar.gz"
 
