@@ -1,6 +1,6 @@
 class TerraformDocs < Formula
     homepage "https://github.com/segmentio/terraform-docs/"
-    version '0.6.0'
+    version 'v0.6.0'
     url "https://github.com/segmentio/terraform-docs/releases/"\
         "download/v#{version}/terraform-docs_darwin_amd64"
 
