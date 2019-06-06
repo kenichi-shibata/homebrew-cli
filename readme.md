@@ -95,3 +95,7 @@ then link the binary using
 
 ```
 brew link kubernetes-cli-1-11                                                                                                 ```
+
+This is good because of kubectl 2 minor version skew where some kubectl commands do not work properly because of api changes
+
+https://kubernetes.io/docs/setup/version-skew-policy/#kubectl
