@@ -52,3 +52,46 @@ brew bundle dump
 ```
 
 * cd here and run `brew bundle`
+
+Cleanup unused deps
+----------------
+
+```
+brew cleanup
+```
+
+Check linkage and sanity
+-----------------
+
+```
+brew doctor
+```
+
+
+Installing version of helm and kubectl
+---------------
+You can install a specific version of a brew package by adding `@`
+
+```
+brew install kubernetes-cli@1.11.1
+```
+
+Or you can use above formula https://github.com/kenichi-shibata/homebrew-cli/blob/master/kubernetes-cli-1-11.rb
+
+```
+brew install https://raw.githubusercontent.com/kenichi-shibata/homebrew-cli/master/kubernetes-cli-1-11.rb
+```
+
+Make sure to do 
+
+``` 
+brew unlink kubernetes-cli 
+```
+
+If you have previous installed versions of Kubernetes
+
+
+then link the binary using
+
+```
+brew link kubernetes-cli-1-11                                                                                                 ```
